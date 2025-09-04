@@ -93,3 +93,15 @@ div {
   left: 0;
 }
 
+.column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: white;
+}
+  
