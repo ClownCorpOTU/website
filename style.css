@@ -104,4 +104,10 @@ div {
   text-align: center;
   background-color: white;
 }
+
+.linkimg {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
   
