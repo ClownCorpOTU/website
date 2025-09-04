@@ -105,6 +105,11 @@ div {
   background-color: white;
 }
 
+.card img {
+  width: 100%;
+  height: auto;
+}
+
 .linkimg {
   display: block;
   margin: auto;
