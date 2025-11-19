@@ -1,10 +1,10 @@
-body, html{
+body, html {
   height: 100%;
 }
 
 body {
   margin: 0%;
-  background-color: #85c8ff;
+  background-color: cornflowerblue;
   font-family: "Lato", sans-serif;
 }
 
@@ -49,7 +49,7 @@ div {
   background-color:white;
 }
 
-.heroimg{
+.heroimg {
   background-image: url("https://picsum.photos/id/1061/1280/720.jpg");
   height: 50%;
   background-size: cover;
@@ -76,20 +76,25 @@ div {
   margin: auto;
 }
 
-.fwd, .bck{
+.fwd, .bck {
   position: absolute;
   top: 50%;
   cursor: pointer;
   font-weight: bolder;
   font-size: 3rem;
   padding: 1rem;
+  color: white;
 }
 
-.fwd{
+.fwd:hover, .bck:hover {
+  color: coral;
+}
+
+.fwd {
   right: 0;
 }
 
-.bck{
+.bck {
   left: 0;
 }
 
